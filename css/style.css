@@ -182,3 +182,42 @@ a {
 footer {
     color:whitesmoke;
 }
+
+
+
+@media screen and (max-width:1200px) {
+    h1 {
+        font-size: 45px;
+    }
+
+    h2,.puestosActuales {
+        font-size: 25px;
+    }
+
+    p,ul,ol {
+        font-size: 18px;
+    }
+
+    .expLaboralTexto{
+        font-size: 18px;
+    }
+}
+
+
+
+@media screen and (max-width:910px) {
+    
+    #cabecera{
+        grid-column: 1fr;
+        grid-row:repeat(4,1fr);
+    grid-template-areas:
+        "foto"
+        "foto"
+        "titulo"
+        "descripcion";
+    }
+
+    #foto{
+        margin:10px auto;
+    }
+}
